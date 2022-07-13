@@ -831,7 +831,7 @@ Calculate the following expression
 
 |   **Input**   |   **Output**    |
 |---------------|-----------------|
-|2 4            |21.3              |
+|2 4            |5.3              |
 |2 6            |16.0               |
 
 **Constraints:** 
