@@ -853,7 +853,7 @@ Calculate the following expression
 
 |   **Input**   |   **Output**    |
 |---------------|-----------------|
-|2             |6.0              |
+|2             |3.0              |
 |4             |10.0               |
 
 **Constraints:** 
