@@ -765,8 +765,8 @@ Calculate the following expression
 
 |   **Input**   |   **Output**    |
 |---------------|-----------------|
-|2 4            |18.0              |
-|2 6            |66.6               |
+|2 4            |192.0            |
+|2 6            |1536.0           |
 
 **Constraints:** 
 
