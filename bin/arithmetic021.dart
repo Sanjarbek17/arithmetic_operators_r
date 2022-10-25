@@ -6,4 +6,6 @@ num func(a, b, c) {
   return (2 * pow(b, 2)) / (a + pow(c, 2));
 }
 
-void main() {}
+void main() {
+  print(func(1,11,3));
+}
