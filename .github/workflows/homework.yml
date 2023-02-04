@@ -23,7 +23,7 @@ jobs:
 
       - name: Run tests
         run: dart test --file-reporter json:tests.json
-        run: python dart_test_check.py & python sendtest.py ${{github.actor}} '${{github.repository}}'
+        run: python conftest.py
 
       continue-on-error: true
 
