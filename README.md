@@ -411,7 +411,7 @@ Calculate the following expression
 |   **Input**   |   **Output**    |
 |---------------|-----------------|
 |10 4             |105.8             |
-|3 1              |10.6                 |
+|3 1              |10.666666666666666                 |
 
 **Constraints:** 
 
@@ -477,8 +477,8 @@ Calculate the following expression
 
 |   **Input**   |   **Output**    |
 |---------------|-----------------|
-|1 11 3             |30.125             |
-|2 4 6              |-1.07                 |
+|1 11 3             |-0.125             |
+|2 4 6              |-1.0714285714285714                 |
 
 **Constraints:** 
 
@@ -809,7 +809,7 @@ Calculate the following expression
 
 |   **Input**   |   **Output**    |
 |---------------|-----------------|
-|2 4            |21.3              |
+|2 4            |5.333333333333333             |
 |2 6            |16.0               |
 
 **Constraints:** 
@@ -831,7 +831,7 @@ Calculate the following expression
 
 |   **Input**   |   **Output**    |
 |---------------|-----------------|
-|2 4            |5.3              |
+|2 4            |5.333333333333333              |
 |2 6            |16.0               |
 
 **Constraints:** 
@@ -957,11 +957,11 @@ Calculate the following expression
 **Example :**
 
 **Input**: *a,b (int)*.\
-**Output**: *Return answer (int)*.
+**Output**: *Return answer (double).
 
 |   **Input**   |   **Output**    |
 |---------------|-----------------|
-|2 4            |5490              |
+|2 4            |8232.0              |
 
 **Constraints:** 
 
@@ -999,11 +999,11 @@ Calculate the following expression
 **Example :**
 
 **Input**: *a,b (int)*.\
-**Output**: *Return answer (int)*.
+**Output**: *Return answer (double)
 
 |   **Input**   |   **Output**    |
 |---------------|-----------------|
-|2 4            |0.66              |
+|2 4            |0.6666666666666666             |
 
 **Constraints:** 
 
