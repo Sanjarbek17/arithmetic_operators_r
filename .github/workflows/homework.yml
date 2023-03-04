@@ -18,17 +18,17 @@ jobs:
 
       - name: Install dependencies
         uses: dart-lang/setup-dart@v1.3
-        run: dart pub get
+      - run: dart pub get
 
       - name: Run tests
-        run: dart test --file-reporter json:tests.json
-        run: python conftest.py
+        run: dart test --file-reporter json:tests.json |
+             python conftest.py
       
-      continue-on-error: true
+        continue-on-error: true
 
-    - name: Natijalar
-      run: |
-        # CHANGED_FILES=$(git diff-tree --no-commit-id --name-only -r ${{ github.sha }}) 
-        CHANGED_FILES=$(git diff-tree --no-commit-id --name-only -r ${{ github.sha }} -- bin)
-        echo $CHANGED_FILES
-        python test/sendtest.py ${{github.actor}} '${{github.repository}}' "$CHANGED_FILES"
+      - name: Natijalar
+        run: |
+          # CHANGED_FILES=$(git diff-tree --no-commit-id --name-only -r ${{ github.sha }}) 
+          CHANGED_FILES=$(git diff-tree --no-commit-id --name-only -r ${{ github.sha }} -- bin)
+          echo $CHANGED_FILES
+          python test/sendtest.py ${{github.actor}} '${{github.repository}}' "$CHANGED_FILES"
