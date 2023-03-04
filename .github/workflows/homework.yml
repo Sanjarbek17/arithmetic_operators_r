@@ -31,4 +31,4 @@ jobs:
           # CHANGED_FILES=$(git diff-tree --no-commit-id --name-only -r ${{ github.sha }}) 
           CHANGED_FILES=$(git diff-tree --no-commit-id --name-only -r ${{ github.sha }} -- bin)
           echo $CHANGED_FILES
-          python test/sendtest.py ${{github.actor}} '${{github.repository}}' "$CHANGED_FILES"
+          # python test/sendtest.py ${{github.actor}} '${{github.repository}}' "$CHANGED_FILES"
